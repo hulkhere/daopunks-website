@@ -162,7 +162,7 @@ export default function NFT() {
                                 background: "rgba(228, 118, 27, 0.1)",
                                 border: "1px solid rgba(228, 118, 27, 0.5)",
                               }}
-                              className="w-full flex flex-col items-center justify-center gap-y-2 rounded p-3 lg:px-9 open-sans"
+                              className="w-full flex flex-col items-center justify-center gap-y-2 rounded p-3 lg:px-6 open-sans"
                             >
                               <h3 style={{ color: "rgba(228, 118, 27, 1)" }}>
                                 {attr.trait_type}
