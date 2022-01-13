@@ -168,10 +168,10 @@ export default function NFT() {
                                 {attr.trait_type}
                               </h3>
                               <p
-                                style={{ color: "rgba(0, 0, 0, 0.6)" }}
+                                style={{ color: "rgba(0, 0, 0, 0.6)" , maxWidth:'10rem' }}
                                 className="w-max text-center text-sm"
                               >
-                                ANON
+                                {attr.value}
                               </p>
                             </div>
                           ))
