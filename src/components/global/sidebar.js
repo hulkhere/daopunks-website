@@ -26,7 +26,7 @@ export default function Sidebar({ setShowSidebar }) {
           <a href="https://dao-punks.myshopify.com/" className="text-hover-red">
             Merch
           </a>
-          <a href="/#mint" className="text-hover-red">
+          <a href="/grants" className="text-hover-red">
             grants
           </a>
           <a href="/#roadmap" className="text-hover-red">

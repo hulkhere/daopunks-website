@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import Logo from "../../assets/images/hero/logo.png";
 import HamburgerIcon from "../../assets/images/hero/hamburger-icon.png";
 import Sidebar from "./sidebar";
-
 import Twitter from "../../assets/images/sidebar/twitter.png";
 import Discord from "../../assets/images/sidebar/discord.png";
 
@@ -41,7 +40,7 @@ export default function Header() {
             Merch
           </a>
           /
-           <a href="/#mint" className="text-hover-red">
+           <a href="/grants" className="text-hover-red">
             Grants
           </a>
           /

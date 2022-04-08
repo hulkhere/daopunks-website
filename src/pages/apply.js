@@ -1,9 +1,11 @@
-import BackgroundImage from "../../assets/images/backgrounds/hero-background.png";
-import HeroImage from "../../assets/images/hero/hero-image.png";
+import React from 'react'
+import Header from "../components/global/header";
+import BackgroundImage from "../../src/assets/images/backgrounds/hero-background.png"
+import HeroImage from "../../src/assets/images/hero/hero-image.png"
 
-import Header from "../global/header";
 
-export default function Hero() {
+
+export default function Apply() {
   return (
     <div
       id="#"
@@ -47,7 +49,7 @@ export default function Hero() {
               </div>
             </div>
             <a
-              href="/grants"
+              href="#mint"
               className="hidden md:block w-max px-8 mt-5 py-5 rounded red text-white modius-bold text-xl leading-snug text-black outline-none cursor-pointer"
             >
               APPLY FOR A GRANT
@@ -55,7 +57,7 @@ export default function Hero() {
           </div>
           <button
             onClick={() => {
-              window.location.href = "/grants";
+              window.location.href = "";
             }}
             className="xl:hidden w-2/3 sm:w-max px-3 sm:px-10 mx-5 py-5 mb-10 rounded bg-white modius-bold text-sm sm:text-xl leading-snug text-black outline-none"
           >
@@ -64,5 +66,6 @@ export default function Hero() {
         </div>
       </div>
     </div>
-  );
+  )
 }
+
