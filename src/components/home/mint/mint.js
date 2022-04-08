@@ -13,7 +13,7 @@ function MintNFT({ wallet, setWallet, nftSupply, setNftSupply }) {
 
   return (
     <>
-      {transactionStatus !== null ? (
+      {/* {transactionStatus !== null ? (
         <TransactionStatus
           transactionStatus={transactionStatus}
           transactionHash={transactionHash}
@@ -59,7 +59,7 @@ function MintNFT({ wallet, setWallet, nftSupply, setNftSupply }) {
         <div className="mt-20 sm:mt-32 mb-10 text-red white-text-shadow text-7xl sm:text-8xl text-center lg:text-9xl violence">
           SOLD OUT
         </div>
-      )}
+      )} */}
     </>
   );
 }

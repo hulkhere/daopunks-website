@@ -27,7 +27,7 @@ export default function Header() {
         >
           <img className="w-10" src={HamburgerIcon} alt="" />
         </div>
-        <div className="hidden lg:flex modius-bold text-white text-lg gap-x-2 2xl:gap-x-6">
+        <div className="hidden lg:flex modius-bold text-white text-md gap-x-2 2xl:gap-x-">
           {/* <a
             to="#a
           bout"
@@ -37,8 +37,12 @@ export default function Header() {
             About
           </a>
           / */}
-          <a href="/#mint" className="text-hover-red">
-            Mint
+          <a href="https://dao-punks.myshopify.com/" className="text-hover-red">
+            Merch
+          </a>
+          /
+           <a href="/#mint" className="text-hover-red">
+            Grants
           </a>
           /
           <a href="/#roadmap" className="text-hover-red">

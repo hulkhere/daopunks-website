@@ -21,11 +21,10 @@ export default function Roadmap() {
             <img className="w-60" src={Image1} alt="" />
             <div>
               <div className="mt-5 modius-bold text-red text-2xl lg:text-3xl">
-                MINT YOUR DAOPUNK
+                PUBLIC MINT COMPLETED
               </div>
               <div className="mt-3 open-sans-light text-md">
-                Public mint. DAOPunks will be available to mint in October. Each
-                of these DAOPunks will be unique and have generative traits.
+                Public mint was successfully completed October 2021 and is sold out. Please check our collection on opensea for secondary listings.
               </div>
             </div>
           </div>

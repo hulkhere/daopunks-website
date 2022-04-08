@@ -23,8 +23,11 @@ export default function Sidebar({ setShowSidebar }) {
 
       <div className="absolute left-0 bottom-0 pl-8 pb-20 flex flex-col gap-y-10">
         <div className="flex flex-col gap-y-5 text-white modius-bold text-2xl">
+          <a href="https://dao-punks.myshopify.com/" className="text-hover-red">
+            Merch
+          </a>
           <a href="/#mint" className="text-hover-red">
-            Mint
+            grants
           </a>
           <a href="/#roadmap" className="text-hover-red">
             Roadmap

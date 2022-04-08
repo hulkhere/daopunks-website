@@ -50,7 +50,7 @@ export default function Hero() {
               href="#mint"
               className="hidden md:block w-max px-8 mt-5 py-5 rounded red text-white modius-bold text-xl leading-snug text-black outline-none cursor-pointer"
             >
-              MINT A DAOPUNK
+              APPLY FOR A GRANT
             </a>
           </div>
           <button
@@ -59,7 +59,7 @@ export default function Hero() {
             }}
             className="xl:hidden w-2/3 sm:w-max px-3 sm:px-10 mx-5 py-5 mb-10 rounded bg-white modius-bold text-sm sm:text-xl leading-snug text-black outline-none"
           >
-            CONNECT YOUR WALLET
+            APPLY FOR A GRANT
           </button>
         </div>
       </div>
